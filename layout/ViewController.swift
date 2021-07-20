@@ -11,6 +11,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     @IBOutlet var image1: UIImageView!
     @IBOutlet var image2: UIImageView!
+    @IBOutlet var image3: UIImageView!
+    @IBOutlet var image4: UIImageView!
+    @IBOutlet var image5: UIImageView!
+    @IBOutlet var view1: UIView!
+    @IBOutlet var image6: UIImageView!
+    @IBOutlet var image7: UIImageView!
+    @IBOutlet var image8: UIImageView!
     @IBOutlet var table: UITableView!
 
     override func viewDidLoad() {

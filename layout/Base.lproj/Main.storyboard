@@ -52,24 +52,104 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <stackView opaque="NO" clipsSubviews="YES" contentMode="center" horizontalHuggingPriority="249" verticalHuggingPriority="249" horizontalCompressionResistancePriority="249" verticalCompressionResistancePriority="249" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="luY-Bf-MD5">
+                                <rect key="frame" x="365" y="54" width="39" height="13"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" image="image" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rbb-js-hZH">
+                                        <rect key="frame" x="0.0" y="0.0" width="11" height="13"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="image3">
+                                            <bool key="isElement" value="YES"/>
+                                        </accessibility>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="NFR-uN-58J">
+                                        <rect key="frame" x="14" y="0.0" width="11" height="13"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="image4">
+                                            <bool key="isElement" value="YES"/>
+                                        </accessibility>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="ISu-cf-gu9">
+                                        <rect key="frame" x="28" y="0.0" width="11" height="13"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="image5">
+                                            <bool key="isElement" value="YES"/>
+                                        </accessibility>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="YQg-jU-VZu"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JhW-so-B2Q">
+                                <rect key="frame" x="304" y="77" width="100" height="14"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="cLE-or-cLT">
+                                        <rect key="frame" x="0.0" y="0.0" width="9" height="9"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="image6">
+                                            <bool key="isElement" value="YES"/>
+                                        </accessibility>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="9" id="ioq-nG-yh3"/>
+                                            <constraint firstAttribute="height" constant="9" id="ygg-hr-473"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="lNg-EO-Mqw">
+                                        <rect key="frame" x="17" y="0.0" width="10" height="10"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="image7">
+                                            <bool key="isElement" value="YES"/>
+                                        </accessibility>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="10" id="ZjN-KW-pqe"/>
+                                            <constraint firstAttribute="width" constant="10" id="wZV-It-Tqy"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="4ov-WG-Lmb">
+                                        <rect key="frame" x="33" y="0.0" width="11" height="11"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="11" id="OMN-xn-qQw"/>
+                                            <constraint firstAttribute="height" constant="11" id="kvm-l5-34s"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="lNg-EO-Mqw" firstAttribute="leading" secondItem="cLE-or-cLT" secondAttribute="trailing" constant="10" id="0co-Fi-RrE"/>
+                                    <constraint firstItem="cLE-or-cLT" firstAttribute="top" secondItem="JhW-so-B2Q" secondAttribute="top" constant="10" id="D32-6T-JLm"/>
+                                    <constraint firstItem="4ov-WG-Lmb" firstAttribute="leading" secondItem="lNg-EO-Mqw" secondAttribute="trailing" constant="10" id="Hg6-ir-J69"/>
+                                    <constraint firstItem="4ov-WG-Lmb" firstAttribute="top" secondItem="JhW-so-B2Q" secondAttribute="top" constant="10" id="ImS-se-hAR"/>
+                                    <constraint firstItem="cLE-or-cLT" firstAttribute="leading" secondItem="JhW-so-B2Q" secondAttribute="leading" constant="10" id="c6F-eb-IAr"/>
+                                    <constraint firstAttribute="height" constant="14" id="jh8-6k-B5j"/>
+                                    <constraint firstItem="lNg-EO-Mqw" firstAttribute="top" secondItem="JhW-so-B2Q" secondAttribute="top" constant="10" id="qGb-Fw-dRv"/>
+                                    <constraint firstAttribute="width" constant="100" id="zjJ-lP-9FY"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="opQ-tK-Cgj" secondAttribute="trailing" id="2C0-7L-peW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JhW-so-B2Q" secondAttribute="trailing" constant="10" id="36I-23-tGj"/>
                             <constraint firstItem="Jzr-yO-YIS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="4Ik-AK-emy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="luY-Bf-MD5" secondAttribute="trailing" constant="10" id="4qg-Py-9U0"/>
                             <constraint firstItem="opQ-tK-Cgj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9A2-Db-bXS"/>
+                            <constraint firstItem="luY-Bf-MD5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="GGj-zf-lAY"/>
                             <constraint firstItem="83N-kF-o2B" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="IRA-f0-skT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="opQ-tK-Cgj" secondAttribute="bottom" id="L32-6h-pLF"/>
                             <constraint firstItem="opQ-tK-Cgj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="Mdu-mV-Grk"/>
                             <constraint firstItem="Jzr-yO-YIS" firstAttribute="leading" secondItem="83N-kF-o2B" secondAttribute="trailing" constant="10" id="fzW-aW-1p4"/>
                             <constraint firstItem="83N-kF-o2B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="lVr-fb-raH"/>
+                            <constraint firstItem="JhW-so-B2Q" firstAttribute="top" secondItem="luY-Bf-MD5" secondAttribute="bottom" constant="10" id="y8Y-pJ-Cge"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="image1" destination="83N-kF-o2B" id="AsT-Na-uoe"/>
                         <outlet property="image2" destination="Jzr-yO-YIS" id="x48-a9-uu4"/>
+                        <outlet property="image3" destination="rbb-js-hZH" id="jAo-tS-ojS"/>
+                        <outlet property="image4" destination="NFR-uN-58J" id="tiM-p6-UyK"/>
+                        <outlet property="image5" destination="ISu-cf-gu9" id="wZH-RI-v6a"/>
+                        <outlet property="image6" destination="cLE-or-cLT" id="tdN-rz-uhe"/>
+                        <outlet property="image7" destination="lNg-EO-Mqw" id="yv2-3Q-GLJ"/>
+                        <outlet property="image8" destination="4ov-WG-Lmb" id="KtG-nX-GPV"/>
                         <outlet property="table" destination="opQ-tK-Cgj" id="XnI-Fp-91R"/>
+                        <outlet property="view1" destination="JhW-so-B2Q" id="6rJ-AD-4v5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
