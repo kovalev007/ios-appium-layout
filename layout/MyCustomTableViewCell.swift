@@ -60,6 +60,7 @@ class MyCustomTableViewCell: UITableViewCell {
     @IBOutlet var myText1: UITextField!
     @IBOutlet var myView2: UIView!
     @IBOutlet var myLabel6: UILabel!
+    @IBOutlet var myImage1: UIImageView!
     
     @IBOutlet var myLabel7: UILabel!
 

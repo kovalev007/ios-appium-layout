@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    @IBOutlet var image1: UIImageView!
+    @IBOutlet var image2: UIImageView!
     @IBOutlet var table: UITableView!
 
     override func viewDidLoad() {
